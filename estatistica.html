@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<head>
+<!-- 2024-05-24 sex 16:34 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Estatística</title>
+<meta name="author" content="Jackson de Jesus" />
+<meta name="description" content="Notas de aulas de estatística" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Estatística</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org63cb476">1 aula</a>
+<ul>
+<li><a href="#org1cce13f">Introdução</a>
+<ul>
+<li><a href="#org22baa6a">Variáveis</a></li>
+<li><a href="#org4ee582e">Distribuição e frequência</a></li>
+<li><a href="#orge7746ae">Séries e gráficos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgeb4b27d">2 aula</a>
+<ul>
+<li><a href="#org4e68e78">Medidas de posição</a></li>
+<li><a href="#orgf409cab">Moda, valor de maior frequência.</a></li>
+</ul>
+</li>
+<li><a href="#orge6b9ca9">3 aula</a>
+<ul>
+<li><a href="#org1c04abd">Medidas de dispersão</a></li>
+</ul>
+</li>
+<li><a href="#org22113d6">4 aula</a>
+<ul>
+<li><a href="#org10f5574">Probabilidade</a></li>
+</ul>
+</li>
+<li><a href="#orge80bcda">5 aula</a>
+<ul>
+<li><a href="#org1dc54e4">Distribuições</a></li>
+</ul>
+</li>
+<li><a href="#org5f4236f">6 aula</a>
+<ul>
+<li><a href="#org30cb108">Estimação</a>
+<ul>
+<li><a href="#orgd0a043c">Intervalo de confiança para proporções</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2e660db">Voltar para o início&#x2026;</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org63cb476" class="outline-2">
+<h2 id="org63cb476">1 aula</h2>
+<div class="outline-text-2" id="text-org63cb476">
+<p>
+Alguns códigos estão disponíveis neste <a href="https://colab.research.google.com/drive/1zG9lykjYF1nKWhHpT5uQp-SxLGTRX9bt?usp=sharing">notebook</a>.
+</p>
+</div>
+
+<div id="outline-container-org1cce13f" class="outline-3">
+<h3 id="org1cce13f">Introdução</h3>
+<div class="outline-text-3" id="text-org1cce13f">
+<ul class="org-ul">
+<li><b>Estatística</b>, processamento (organização, análise e interpretação) de dados para gerar (apresentar) informações para decisões assertivas.</li>
+
+<li>Estatística descritiva (descrição) e indutiva (inferências a partir de população e amostra).</li>
+
+<li>População, amostra, estatística descritiva (tabelas, gráficos, medidas), características amostrais, estatística indutiva, características populacionais (inferências).</li>
+
+<li>Fases do método estatístico: definição do problema, delimitação do problema, planejamento, coleta de dados, apuração de dados, apresentação de dados, análise de dados, interpretação de dados.</li>
+</ul>
+</div>
+
+<div id="outline-container-org22baa6a" class="outline-4">
+<h4 id="org22baa6a">Variáveis</h4>
+<div class="outline-text-4" id="text-org22baa6a">
+<ul class="org-ul">
+<li>Qualitativas (qualidades ou atributos, nominais ou ordinais [ordem]) e quantitativas (quantidade, discretas [contagens], contínuas [medidas]).</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4ee582e" class="outline-4">
+<h4 id="org4ee582e">Distribuição e frequência</h4>
+<div class="outline-text-4" id="text-org4ee582e">
+<ul class="org-ul">
+<li>Rol (ordenação) contar (frequência [absoluta (f)] de repetição).</li>
+
+<li><p>
+Frequência acumulada (soma das frequências) e frequência relativa (fr), divisão da frequência absoluta (f) pelo número de elementos (N) da amostra, em percentual.
+</p>
+
+<p>
+\[f_r = \frac{f}{N}\]
+</p></li>
+
+<li>Distribuição e frequência por classe</li>
+
+<li>Classe (faixa de valor) com limites inferiores e superiores, amplitude total (A) igual ao limite superior (Ls) menos o limite inferior (Li), invariável.</li>
+</ul>
+
+<p>
+\[\text{A} = \text{Ls} - \text{Li}\]
+</p>
+
+<ul class="org-ul">
+<li><p>
+O número de classes
+</p>
+
+<p>
+\[\text{Número de classes} = \sqrt{\text{amostra}}\]
+</p></li>
+
+<li><p>
+Amplitude das classes
+</p>
+
+<p>
+\[A = \frac{\text{Amplitude Total}}{\text{Número de classe}}\]
+</p></li>
+
+<li>Ponto médio (Pm) igual ao limite superior mais o limite inferior dividido por 2, variável.</li>
+</ul>
+
+<p>
+\[P_m = \frac{L_s + L_i}{2}\]
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge7746ae" class="outline-4">
+<h4 id="orge7746ae">Séries e gráficos</h4>
+<div class="outline-text-4" id="text-orge7746ae">
+<ul class="org-ul">
+<li>Séries temporais, geográficas, categóricas ou específicas, mistas.</li>
+
+<li>Gráficos de linhas (tempo), barras (tempo), pizza (setor, percentual), coluna (comparações), histograma (distribuição de frequência por classe)&#x2026;</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgeb4b27d" class="outline-2">
+<h2 id="orgeb4b27d">2 aula</h2>
+<div class="outline-text-2" id="text-orgeb4b27d">
+</div>
+<div id="outline-container-org4e68e78" class="outline-3">
+<h3 id="org4e68e78">Medidas de posição</h3>
+<div class="outline-text-3" id="text-org4e68e78">
+<ul class="org-ul">
+<li>Medidas de posição (tendência central), média, mediana e moda.</li>
+
+<li>Média, quociente entre a soma de todos os valores da variável e seu número de elementos. Fórmula: X barra igual ao somatório de X sobre N.</li>
+
+<li>Média ponderada (distribuição de frequência), quociente entre a soma de todos os valores da variável multiplicados por suas frequências (pesos) e seu número de elementos. Fórmula: X barra igual ao somatório da multiplicação de X por sua respectiva frequência (f) sobre N.</li>
+
+<li>Mediana, valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf409cab" class="outline-3">
+<h3 id="orgf409cab">Moda, valor de maior frequência.</h3>
+<div class="outline-text-3" id="text-orgf409cab">
+<ul class="org-ul">
+<li>Tipos:</li>
+
+<li>Distribuição modal, apenas um valor.</li>
+<li>Distribuição bimodal, dois ou mais valores,</li>
+<li>Distribuição amodal, sem moda.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge6b9ca9" class="outline-2">
+<h2 id="orge6b9ca9">3 aula</h2>
+<div class="outline-text-2" id="text-orge6b9ca9">
+</div>
+<div id="outline-container-org1c04abd" class="outline-3">
+<h3 id="org1c04abd">Medidas de dispersão</h3>
+<div class="outline-text-3" id="text-org1c04abd">
+<ul class="org-ul">
+<li>Medidas de dispersão, medidas para verificar o quanto os valores estão afastados em relação a média.</li>
+
+<li>Amplitude total, diferença entre o maior e o menor valor da série. Quanto maior a amplitude, maior a dispersão.</li>
+
+<li>Desvio médio, a média das distâncias entre cada elemento da amosta e seu valor médio.</li>
+
+<li>Variância, média dos quadrados dos desvios. Desvios proporcionais as dispersões.</li>
+
+<li>Assimetria, grau de afastamento de uma distribuição da unidade de simetria.</li>
+
+<li>Tipos:</li>
+</ul>
+
+<p>
+Simétrica, igualdade dos valores de média, mediana e moda.
+Assimétrica a direita, 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org22113d6" class="outline-2">
+<h2 id="org22113d6">4 aula</h2>
+<div class="outline-text-2" id="text-org22113d6">
+</div>
+<div id="outline-container-org10f5574" class="outline-3">
+<h3 id="org10f5574">Probabilidade</h3>
+<div class="outline-text-3" id="text-org10f5574">
+<ul class="org-ul">
+<li>Probabilidade, possibilidade (medida de grau de incerteza) de ocorrência de um determinado evento definido num espaço amostral relacionado a um evento aleatório.</li>
+
+<li>Experimento aleatório (E), imprevisíveis.</li>
+
+<li>Espaço amostral (S), conjunto de todos os resultados possíveis do evento estatístico.</li>
+
+<li>Cálculo da probabilidade, número de elementos do evento A sobre o número de elementos do espaço amostral S, P(A)=A/S; A sempre menor ou igual a S.</li>
+
+<li>Eventos exclusivos, quando a ocorrência de um exclui a realização do outro, igual a soma das probabilidades individuais, P(A) + P(B), ou P(A U B).</li>
+
+<li>Eventos não exclusivo, eventos simultâneos, igual a soma das probabilidades individuais menos a multiplicação das mesmas, P(A) + P(B) - P(A) x P(B), ou P(A U B) = (A) + P(B) - P(A interseção B).</li>
+
+<li>Condicional, evento A ocorre depois de evento B, número de elementos da interseção de A e B sobre número de elementos de B, P(A/B) = P(A interseção B) sobre P(B).</li>
+
+<li>Regra da multiplicação, ocorrência conjunta de dois eventos:</li>
+
+<li>Ocorrência simultânea, P(A interseção B) = P(B) x P(A / B), com ou sem reposição.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge80bcda" class="outline-2">
+<h2 id="orge80bcda">5 aula</h2>
+<div class="outline-text-2" id="text-orge80bcda">
+</div>
+<div id="outline-container-org1dc54e4" class="outline-3">
+<h3 id="org1dc54e4">Distribuições</h3>
+<div class="outline-text-3" id="text-org1dc54e4">
+<ul class="org-ul">
+<li>Distribuição de probabilidade, expressão matemática aplicável a múltiplas situações, respeitando determinadas premissas.</li>
+
+<li>Variáveis aleatórias, valores acidentais, discretas ou contínuas.</li>
+
+<li>Variável aleatória discreta, valores inteiros e finitos.</li>
+
+<li>Variável aleatória contínua, valores em um intervalo.</li>
+
+<li>Distribuição binomial, discreta, a cada tentativa, sempre dois resultados possíveis e exclusivos, sucesso (p) e insucesso (q), probabilidade de um evento ocorrer 'x' vezes em 'n' tentativas.</li>
+
+<li>Dados da fórmula: (N), tentativas, (X), vezes, (p), probabilidade de sucesso, (q = 1 - p), insucesso e fatoriais de N e X, este sempre igual ou menor a N.</li>
+
+<li>Distribuição Poisson, sucessos por unidade de tempo ou espaço.</li>
+
+<li>Dados da fórmula: (X), número de sucessos, (sinal de lambda), número médio de sucesso em intervalo específico, média e (e), base do logaritmo natural (2.71828).</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5f4236f" class="outline-2">
+<h2 id="org5f4236f">6 aula</h2>
+<div class="outline-text-2" id="text-org5f4236f">
+</div>
+<div id="outline-container-org30cb108" class="outline-3">
+<h3 id="org30cb108">Estimação</h3>
+<div class="outline-text-3" id="text-org30cb108">
+<ul class="org-ul">
+<li>Inferência estatística, processo para obter informações sobre uma população com base em resultados obtidos na amostra.</li>
+
+<li>Estimativa, valor atribuído ao estimador, grandeza baseada em observações feitas em amostra, pode ser por ponto ou intervalo.</li>
+
+<li>Estimativa por ponto, valor único, aproximação.</li>
+
+<li>Estimativa por intervalo, intervalo de confiança, faixa de valores possíveis e aceitos como verdadeiro em torno da estimativa por ponto.</li>
+
+<li>Intervalo de confiança, intervalo de valores com probabilidade de conter o valor desconhecido associado a um nível de confiança, um número que exprime o grau de confiança deste intervalo.</li>
+
+<li>Fórmula:</li>
+
+<li>C (erro amostral) igual a Z (distribuição normal padronizada) vezes delta (desvio padrão da população) sobre a raiz quadrada de n (tamanho amostral).</li>
+
+<li>O intervalo de confiança (letra grega mu, média da população) fica entre a média amostral menos o C e a média amostral mais C.</li>
+
+<li>Erro versus tamanho da amostra, inversamente proporcional, variação da fórmula de intervalo de confiança.</li>
+</ul>
+</div>
+
+<div id="outline-container-orgd0a043c" class="outline-4">
+<h4 id="orgd0a043c">Intervalo de confiança para proporções</h4>
+<div class="outline-text-4" id="text-orgd0a043c">
+<ul class="org-ul">
+<li>Teste de hipótese, comparar medidas, aferir correção, fazer inferências, hipótese nula (H zero), igualdade, alternativa (H um), desigualdade.</li>
+
+<li>Erros, hipótese nula ser verdeira (tipo 1) e rejeitada ou ser falsa e aceita (tipo 2).</li>
+
+<li>Regiões, rejeição e aceitação.</li>
+
+<li>Estimador</li>
+</ul>
+
+<p>
+Fórmula&#x2026;
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2e660db" class="outline-2">
+<h2 id="org2e660db"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Jackson de Jesus</p>
+<p class="date">Created: 2024-05-24 sex 16:34</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

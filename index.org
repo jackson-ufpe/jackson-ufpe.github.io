@@ -1,0 +1,23 @@
+#+TITLE: Jackson de Jesus
+#+LANGUAGE: pt-br
+#+DESCRIPTION: Site pessoal
+#+AUTHOR: Jackson de Jesus
+#+EXPORT_FILE_NAME: index.html
+#+OPTIONS: author:nil html-postamble:nil toc:nil num:nil html5-fancy:t
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cdn.simplecss.org/simple.min.css">
+
+* Início...
+
+- 👋 Oi, me chamo Jackson de Jesus;
+- 👀 Curto tecnologia e linguagens (nas suas diversas modalidades);
+- 🌱 Estudo muitos temas, dentre os quais ciência de dados;
+- 💞️ Gosto de Software Livre e ssistemas GNU/Linux;
+- 📫 Ainda prefiro usar o e-mail;
+- 😄 Pronome: ele;
+- ⚡ Curiosidade: converso sozinho no [[https://literolinguista.gitlab.io][@literolinguista]]...
+
+** Notas de aulas...
+
+Algumas notas das disciplinas do curso de Ciência de dados (em revisão)...
+
+[[./estatistica.html][Estatística]]
