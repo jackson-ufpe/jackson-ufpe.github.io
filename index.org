@@ -18,6 +18,8 @@
 
 ** Notas de aulas...
 
-Algumas notas das disciplinas do curso de Ciência de dados (em revisão)...
+Algumas notas das disciplinas do curso de Ciência de dados sob a liceça [[https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR][Creative Commons]] (sempre em revisão)...
 
 [[./estatistica.html][Estatística]]
+
+[[https://jeffhuang.com/designed_to_last][Este site foi projetado para durar.]]

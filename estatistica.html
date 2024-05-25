@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 <head>
-<!-- 2024-05-24 sex 16:34 -->
+<!-- 2024-05-25 sáb 13:20 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Estatística</title>
@@ -45,91 +45,116 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org63cb476">1 aula</a>
+<li><a href="#orgf482b87">1 aula</a>
 <ul>
-<li><a href="#org1cce13f">Introdução</a>
+<li><a href="#orgdc46f73">Introdução</a>
 <ul>
-<li><a href="#org22baa6a">Variáveis</a></li>
-<li><a href="#org4ee582e">Distribuição e frequência</a></li>
-<li><a href="#orge7746ae">Séries e gráficos</a></li>
+<li><a href="#orgd69d2e2">Variáveis</a></li>
+<li><a href="#orgd1229b0">Distribuição e frequência</a></li>
+<li><a href="#org344ccc1">Séries e gráficos</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgeb4b27d">2 aula</a>
+<li><a href="#org8ee510b">2 aula</a>
 <ul>
-<li><a href="#org4e68e78">Medidas de posição</a></li>
-<li><a href="#orgf409cab">Moda, valor de maior frequência.</a></li>
+<li><a href="#org997ded3">Medidas de posição</a></li>
+<li><a href="#org6f21caf">Moda, valor de maior frequência.</a></li>
 </ul>
 </li>
-<li><a href="#orge6b9ca9">3 aula</a>
+<li><a href="#orgddcf6a5">3 aula</a>
 <ul>
-<li><a href="#org1c04abd">Medidas de dispersão</a></li>
+<li><a href="#org0091768">Medidas de dispersão</a></li>
 </ul>
 </li>
-<li><a href="#org22113d6">4 aula</a>
+<li><a href="#org6ad4add">4 aula</a>
 <ul>
-<li><a href="#org10f5574">Probabilidade</a></li>
+<li><a href="#org33b5949">Probabilidade</a></li>
 </ul>
 </li>
-<li><a href="#orge80bcda">5 aula</a>
+<li><a href="#org3b4238c">5 aula</a>
 <ul>
-<li><a href="#org1dc54e4">Distribuições</a></li>
+<li><a href="#org0859c0f">Distribuições</a></li>
 </ul>
 </li>
-<li><a href="#org5f4236f">6 aula</a>
+<li><a href="#orgcd05108">6 aula</a>
 <ul>
-<li><a href="#org30cb108">Estimação</a>
+<li><a href="#orged45431">Estimação</a>
 <ul>
-<li><a href="#orgd0a043c">Intervalo de confiança para proporções</a></li>
+<li><a href="#org50e3745">Intervalo de confiança para proporções</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org2e660db">Voltar para o início&#x2026;</a></li>
+<li><a href="#org2411952">Voltar para o início&#x2026;</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org63cb476" class="outline-2">
-<h2 id="org63cb476">1 aula</h2>
-<div class="outline-text-2" id="text-org63cb476">
+<div id="outline-container-orgf482b87" class="outline-2">
+<h2 id="orgf482b87">1 aula</h2>
+<div class="outline-text-2" id="text-orgf482b87">
 <p>
-Alguns códigos estão disponíveis neste <a href="https://colab.research.google.com/drive/1zG9lykjYF1nKWhHpT5uQp-SxLGTRX9bt?usp=sharing">notebook</a>.
+Alguns códigos estão disponíveis neste <a href="./codigos">aqui</a>.
 </p>
 </div>
 
-<div id="outline-container-org1cce13f" class="outline-3">
-<h3 id="org1cce13f">Introdução</h3>
-<div class="outline-text-3" id="text-org1cce13f">
+<div id="outline-container-orgdc46f73" class="outline-3">
+<h3 id="orgdc46f73">Introdução</h3>
+<div class="outline-text-3" id="text-orgdc46f73">
 <ul class="org-ul">
 <li><b>Estatística</b>, processamento (organização, análise e interpretação) de dados para gerar (apresentar) informações para decisões assertivas.</li>
+</ul>
 
-<li>Estatística descritiva (descrição) e indutiva (inferências a partir de população e amostra).</li>
 
-<li>População, amostra, estatística descritiva (tabelas, gráficos, medidas), características amostrais, estatística indutiva, características populacionais (inferências).</li>
+<div id="org882b8e1" class="figure">
+<p><img src="./imagens/passos-estatistica.svg" alt="Passos da estatística image" class="org-svg" title="Estatística" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Passos da estatística</p>
+</div>
 
+<ul class="org-ul">
+<li>Estatística <b>descritiva</b> (descrição) e <b>indutiva</b> (inferências a partir de população e amostra).</li>
+
+<li><b>População</b>, <b>amostra</b>, estatística descritiva (tabelas, gráficos, medidas), características amostrais, estatística indutiva, características populacionais (inferências).</li>
+</ul>
+
+
+<div id="org80af57d" class="figure">
+<p><img src="./imagens/populacao-amostra.svg" alt="População e amostra image" class="org-svg" title="População e amostra" />
+</p>
+<p><span class="figure-number">Figure 2: </span>População e amostra</p>
+</div>
+
+<ul class="org-ul">
 <li>Fases do método estatístico: definição do problema, delimitação do problema, planejamento, coleta de dados, apuração de dados, apresentação de dados, análise de dados, interpretação de dados.</li>
 </ul>
 </div>
 
-<div id="outline-container-org22baa6a" class="outline-4">
-<h4 id="org22baa6a">Variáveis</h4>
-<div class="outline-text-4" id="text-org22baa6a">
+<div id="outline-container-orgd69d2e2" class="outline-4">
+<h4 id="orgd69d2e2">Variáveis</h4>
+<div class="outline-text-4" id="text-orgd69d2e2">
 <ul class="org-ul">
 <li>Qualitativas (qualidades ou atributos, nominais ou ordinais [ordem]) e quantitativas (quantidade, discretas [contagens], contínuas [medidas]).</li>
 </ul>
+
+
+<div id="org7432252" class="figure">
+<p><img src="./imagens/variaveis.svg" alt="Variáveis image" class="org-svg" title="Variáveis" />
+</p>
+<p><span class="figure-number">Figure 3: </span>Variáveis</p>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org4ee582e" class="outline-4">
-<h4 id="org4ee582e">Distribuição e frequência</h4>
-<div class="outline-text-4" id="text-org4ee582e">
+<div id="outline-container-orgd1229b0" class="outline-4">
+<h4 id="orgd1229b0">Distribuição e frequência</h4>
+<div class="outline-text-4" id="text-orgd1229b0">
 <ul class="org-ul">
-<li>Rol (ordenação) contar (frequência [absoluta (f)] de repetição).</li>
+<li><b>Rol</b> (ordenação) contar (frequência [absoluta (f)] de repetição).</li>
 
 <li><p>
-Frequência acumulada (soma das frequências) e frequência relativa (fr), divisão da frequência absoluta (f) pelo número de elementos (N) da amostra, em percentual.
+<b>Frequência acumulada</b> (soma das frequências) e frequência relativa (fr), divisão da frequência absoluta (f) pelo número de elementos (N) da amostra, em percentual.
 </p>
 
 <p>
@@ -138,7 +163,7 @@ Frequência acumulada (soma das frequências) e frequência relativa (fr), divis
 
 <li>Distribuição e frequência por classe</li>
 
-<li>Classe (faixa de valor) com limites inferiores e superiores, amplitude total (A) igual ao limite superior (Ls) menos o limite inferior (Li), invariável.</li>
+<li><b>Classe</b> (faixa de valor) com limites inferiores e superiores, amplitude total (A) igual ao limite superior (Ls) menos o limite inferior (Li), invariável.</li>
 </ul>
 
 <p>
@@ -162,7 +187,7 @@ Amplitude das classes
 \[A = \frac{\text{Amplitude Total}}{\text{Número de classe}}\]
 </p></li>
 
-<li>Ponto médio (Pm) igual ao limite superior mais o limite inferior dividido por 2, variável.</li>
+<li><b>Ponto médio</b> (Pm) igual ao limite superior mais o limite inferior dividido por 2, variável.</li>
 </ul>
 
 <p>
@@ -171,9 +196,9 @@ Amplitude das classes
 </div>
 </div>
 
-<div id="outline-container-orge7746ae" class="outline-4">
-<h4 id="orge7746ae">Séries e gráficos</h4>
-<div class="outline-text-4" id="text-orge7746ae">
+<div id="outline-container-org344ccc1" class="outline-4">
+<h4 id="org344ccc1">Séries e gráficos</h4>
+<div class="outline-text-4" id="text-org344ccc1">
 <ul class="org-ul">
 <li>Séries temporais, geográficas, categóricas ou específicas, mistas.</li>
 
@@ -184,28 +209,60 @@ Amplitude das classes
 </div>
 </div>
 
-<div id="outline-container-orgeb4b27d" class="outline-2">
-<h2 id="orgeb4b27d">2 aula</h2>
-<div class="outline-text-2" id="text-orgeb4b27d">
+<div id="outline-container-org8ee510b" class="outline-2">
+<h2 id="org8ee510b">2 aula</h2>
+<div class="outline-text-2" id="text-org8ee510b">
 </div>
-<div id="outline-container-org4e68e78" class="outline-3">
-<h3 id="org4e68e78">Medidas de posição</h3>
-<div class="outline-text-3" id="text-org4e68e78">
+<div id="outline-container-org997ded3" class="outline-3">
+<h3 id="org997ded3">Medidas de posição</h3>
+<div class="outline-text-3" id="text-org997ded3">
 <ul class="org-ul">
 <li>Medidas de posição (tendência central), média, mediana e moda.</li>
 
-<li>Média, quociente entre a soma de todos os valores da variável e seu número de elementos. Fórmula: X barra igual ao somatório de X sobre N.</li>
+<li>Tipos de dados: não agrupados, distribuição de frequência, distribuição de frequência por classes.</li>
 
-<li>Média ponderada (distribuição de frequência), quociente entre a soma de todos os valores da variável multiplicados por suas frequências (pesos) e seu número de elementos. Fórmula: X barra igual ao somatório da multiplicação de X por sua respectiva frequência (f) sobre N.</li>
+<li><p>
+<b>Média</b>, para dados não agrupados, grau de concentração numa distribuição, quociente entre a soma de todos os valores da variável e seu número de elementos. Fórmula: X barra igual ao somatório de X sobre N.
+</p>
 
-<li>Mediana, valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.</li>
+<p>
+\[\bar{X} = \frac{\sum X}{N}\]
+</p></li>
+
+<li><b>Média ponderada</b> (distribuição de frequência), quociente entre a soma de todos os valores da variável multiplicados por suas frequências (pesos) e seu número de elementos. Fórmula: X barra igual ao somatório da multiplicação de X por sua respectiva frequência (f) sobre N.</li>
+
+<li><p>
+Para distribuição de frequência simples
+</p>
+
+<p>
+\[\bar{X} = \frac{\sum (X.f)}{N}$, sendo N = \sum f\]
+</p></li>
+
+<li><p>
+Para distribuição de frequência por classe
+</p>
+
+<p>
+\[\bar{x} = \frac{\sum{(PM.f)}}{N}\]
+</p></li>
+
+<li><b>Mediana</b> (necessário fazer rol), valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.</li>
+
+<li><p>
+Para dados não agrupados com quantidade par:
+</p>
+
+<p>
+\[posição = \frac{N}{2}\]
+</p></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgf409cab" class="outline-3">
-<h3 id="orgf409cab">Moda, valor de maior frequência.</h3>
-<div class="outline-text-3" id="text-orgf409cab">
+<div id="outline-container-org6f21caf" class="outline-3">
+<h3 id="org6f21caf">Moda, valor de maior frequência.</h3>
+<div class="outline-text-3" id="text-org6f21caf">
 <ul class="org-ul">
 <li>Tipos:</li>
 
@@ -217,13 +274,13 @@ Amplitude das classes
 </div>
 </div>
 
-<div id="outline-container-orge6b9ca9" class="outline-2">
-<h2 id="orge6b9ca9">3 aula</h2>
-<div class="outline-text-2" id="text-orge6b9ca9">
+<div id="outline-container-orgddcf6a5" class="outline-2">
+<h2 id="orgddcf6a5">3 aula</h2>
+<div class="outline-text-2" id="text-orgddcf6a5">
 </div>
-<div id="outline-container-org1c04abd" class="outline-3">
-<h3 id="org1c04abd">Medidas de dispersão</h3>
-<div class="outline-text-3" id="text-org1c04abd">
+<div id="outline-container-org0091768" class="outline-3">
+<h3 id="org0091768">Medidas de dispersão</h3>
+<div class="outline-text-3" id="text-org0091768">
 <ul class="org-ul">
 <li>Medidas de dispersão, medidas para verificar o quanto os valores estão afastados em relação a média.</li>
 
@@ -246,13 +303,13 @@ Assimétrica a direita,
 </div>
 </div>
 
-<div id="outline-container-org22113d6" class="outline-2">
-<h2 id="org22113d6">4 aula</h2>
-<div class="outline-text-2" id="text-org22113d6">
+<div id="outline-container-org6ad4add" class="outline-2">
+<h2 id="org6ad4add">4 aula</h2>
+<div class="outline-text-2" id="text-org6ad4add">
 </div>
-<div id="outline-container-org10f5574" class="outline-3">
-<h3 id="org10f5574">Probabilidade</h3>
-<div class="outline-text-3" id="text-org10f5574">
+<div id="outline-container-org33b5949" class="outline-3">
+<h3 id="org33b5949">Probabilidade</h3>
+<div class="outline-text-3" id="text-org33b5949">
 <ul class="org-ul">
 <li>Probabilidade, possibilidade (medida de grau de incerteza) de ocorrência de um determinado evento definido num espaço amostral relacionado a um evento aleatório.</li>
 
@@ -276,13 +333,13 @@ Assimétrica a direita,
 </div>
 </div>
 
-<div id="outline-container-orge80bcda" class="outline-2">
-<h2 id="orge80bcda">5 aula</h2>
-<div class="outline-text-2" id="text-orge80bcda">
+<div id="outline-container-org3b4238c" class="outline-2">
+<h2 id="org3b4238c">5 aula</h2>
+<div class="outline-text-2" id="text-org3b4238c">
 </div>
-<div id="outline-container-org1dc54e4" class="outline-3">
-<h3 id="org1dc54e4">Distribuições</h3>
-<div class="outline-text-3" id="text-org1dc54e4">
+<div id="outline-container-org0859c0f" class="outline-3">
+<h3 id="org0859c0f">Distribuições</h3>
+<div class="outline-text-3" id="text-org0859c0f">
 <ul class="org-ul">
 <li>Distribuição de probabilidade, expressão matemática aplicável a múltiplas situações, respeitando determinadas premissas.</li>
 
@@ -304,13 +361,13 @@ Assimétrica a direita,
 </div>
 </div>
 
-<div id="outline-container-org5f4236f" class="outline-2">
-<h2 id="org5f4236f">6 aula</h2>
-<div class="outline-text-2" id="text-org5f4236f">
+<div id="outline-container-orgcd05108" class="outline-2">
+<h2 id="orgcd05108">6 aula</h2>
+<div class="outline-text-2" id="text-orgcd05108">
 </div>
-<div id="outline-container-org30cb108" class="outline-3">
-<h3 id="org30cb108">Estimação</h3>
-<div class="outline-text-3" id="text-org30cb108">
+<div id="outline-container-orged45431" class="outline-3">
+<h3 id="orged45431">Estimação</h3>
+<div class="outline-text-3" id="text-orged45431">
 <ul class="org-ul">
 <li>Inferência estatística, processo para obter informações sobre uma população com base em resultados obtidos na amostra.</li>
 
@@ -332,9 +389,9 @@ Assimétrica a direita,
 </ul>
 </div>
 
-<div id="outline-container-orgd0a043c" class="outline-4">
-<h4 id="orgd0a043c">Intervalo de confiança para proporções</h4>
-<div class="outline-text-4" id="text-orgd0a043c">
+<div id="outline-container-org50e3745" class="outline-4">
+<h4 id="org50e3745">Intervalo de confiança para proporções</h4>
+<div class="outline-text-4" id="text-org50e3745">
 <ul class="org-ul">
 <li>Teste de hipótese, comparar medidas, aferir correção, fazer inferências, hipótese nula (H zero), igualdade, alternativa (H um), desigualdade.</li>
 
@@ -353,13 +410,13 @@ Fórmula&#x2026;
 </div>
 </div>
 
-<div id="outline-container-org2e660db" class="outline-2">
-<h2 id="org2e660db"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
+<div id="outline-container-org2411952" class="outline-2">
+<h2 id="org2411952"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Jackson de Jesus</p>
-<p class="date">Created: 2024-05-24 sex 16:34</p>
+<p class="date">Created: 2024-05-25 sáb 13:20</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

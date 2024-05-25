@@ -8,33 +8,45 @@
 
 * 1 aula
 
-Alguns códigos estão disponíveis neste [[https://colab.research.google.com/drive/1zG9lykjYF1nKWhHpT5uQp-SxLGTRX9bt?usp=sharing][notebook]].
+Alguns códigos estão disponíveis neste [[./codigos][aqui]].
 
 ** Introdução
 
 - *Estatística*, processamento (organização, análise e interpretação) de dados para gerar (apresentar) informações para decisões assertivas.
 
-- Estatística descritiva (descrição) e indutiva (inferências a partir de população e amostra).
+#+CAPTION: Passos da estatística
+#+ATTR_HTML: :alt Passos da estatística image :title Estatística
+  [[./imagens/passos-estatistica.svg]]
 
-- População, amostra, estatística descritiva (tabelas, gráficos, medidas), características amostrais, estatística indutiva, características populacionais (inferências).
+- Estatística *descritiva* (descrição) e *indutiva* (inferências a partir de população e amostra).
+ 
+- *População*, *amostra*, estatística descritiva (tabelas, gráficos, medidas), características amostrais, estatística indutiva, características populacionais (inferências).
 
+#+CAPTION: População e amostra
+#+ATTR_HTML: :alt População e amostra image :title População e amostra
+  [[./imagens/populacao-amostra.svg]]
+ 
 - Fases do método estatístico: definição do problema, delimitação do problema, planejamento, coleta de dados, apuração de dados, apresentação de dados, análise de dados, interpretação de dados.
 
 *** Variáveis
 
 - Qualitativas (qualidades ou atributos, nominais ou ordinais [ordem]) e quantitativas (quantidade, discretas [contagens], contínuas [medidas]).
 
+#+CAPTION: Variáveis 
+#+ATTR_HTML: :alt Variáveis image :title Variáveis
+  [[./imagens/variaveis.svg]]
+  
 *** Distribuição e frequência
 
-- Rol (ordenação) contar (frequência [absoluta (f)] de repetição).
+- *Rol* (ordenação) contar (frequência [absoluta (f)] de repetição).
 
-- Frequência acumulada (soma das frequências) e frequência relativa (fr), divisão da frequência absoluta (f) pelo número de elementos (N) da amostra, em percentual.
+- *Frequência acumulada* (soma das frequências) e frequência relativa (fr), divisão da frequência absoluta (f) pelo número de elementos (N) da amostra, em percentual.
 
   $$f_r = \frac{f}{N}$$
   
 - Distribuição e frequência por classe
 
-- Classe (faixa de valor) com limites inferiores e superiores, amplitude total (A) igual ao limite superior (Ls) menos o limite inferior (Li), invariável.
+- *Classe* (faixa de valor) com limites inferiores e superiores, amplitude total (A) igual ao limite superior (Ls) menos o limite inferior (Li), invariável.
 
 $$\text{A} = \text{Ls} - \text{Li}$$
 
@@ -46,7 +58,7 @@ $$\text{A} = \text{Ls} - \text{Li}$$
 
  $$A = \frac{\text{Amplitude Total}}{\text{Número de classe}}$$
  
-- Ponto médio (Pm) igual ao limite superior mais o limite inferior dividido por 2, variável.
+- *Ponto médio* (Pm) igual ao limite superior mais o limite inferior dividido por 2, variável.
 
 $$P_m = \frac{L_s + L_i}{2}$$
 
@@ -62,11 +74,27 @@ $$P_m = \frac{L_s + L_i}{2}$$
 
 - Medidas de posição (tendência central), média, mediana e moda.
 
-- Média, quociente entre a soma de todos os valores da variável e seu número de elementos. Fórmula: X barra igual ao somatório de X sobre N.
+- Tipos de dados: não agrupados, distribuição de frequência, distribuição de frequência por classes.
+  
+- *Média*, para dados não agrupados, grau de concentração numa distribuição, quociente entre a soma de todos os valores da variável e seu número de elementos. Fórmula: X barra igual ao somatório de X sobre N.
 
-- Média ponderada (distribuição de frequência), quociente entre a soma de todos os valores da variável multiplicados por suas frequências (pesos) e seu número de elementos. Fórmula: X barra igual ao somatório da multiplicação de X por sua respectiva frequência (f) sobre N.
+  $$\bar{X} = \frac{\sum X}{N}$$
+  
+- *Média ponderada* (distribuição de frequência), quociente entre a soma de todos os valores da variável multiplicados por suas frequências (pesos) e seu número de elementos. Fórmula: X barra igual ao somatório da multiplicação de X por sua respectiva frequência (f) sobre N.
 
-- Mediana, valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.
+- Para distribuição de frequência simples
+    
+  $$\bar{X} = \frac{\sum (X.f)}{N}$, sendo N = \sum f$$
+
+- Para distribuição de frequência por classe
+
+  $$\bar{x} = \frac{\sum{(PM.f)}}{N}$$
+  
+- *Mediana* (necessário fazer rol), valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.
+
+- Para dados não agrupados com quantidade par:
+    
+   $$posição = \frac{N}{2}$$
 
 ** Moda, valor de maior frequência.
 
