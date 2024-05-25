@@ -8,13 +8,13 @@
 
 * Início...
 
-- 👋 Oi, me chamo Jackson de Jesus;
-- 👀 Curto tecnologia e linguagens (nas suas diversas modalidades);
-- 🌱 Estudo muitos temas, dentre os quais ciência de dados;
-- 💞️ Gosto de Software Livre e ssistemas GNU/Linux;
-- 📫 Ainda prefiro usar o e-mail;
-- 😄 Pronome: ele;
-- ⚡ Curiosidade: converso sozinho no [[https://literolinguista.gitlab.io][@literolinguista]]...
+- 👋 Oi, me chamo Jackson,
+- 👀 curto tecnologia e linguagens (nas suas diversas modalidades),
+- 🌱 estudo muitos temas, dentre os quais [[https://jackson-ufpe.github.io][ciência de dados]],
+- 💞️ gosto de Software Livre e sistemas GNU/Linux,
+- 📫 ainda prefiro usar o e-mail,
+- 😄 ele,
+- ⚡ converso sozinho no [[https://literolinguista.gitlab.io][literolinguista]]
 
 ** Notas de aulas...
 
