@@ -8,7 +8,7 @@
 
 * 1 aula
 
-Alguns códigos estão disponíveis neste [[./codigos][aqui]].
+Alguns códigos estão disponíveis neste [[https://colab.research.google.com/drive/1zG9lykjYF1nKWhHpT5uQp-SxLGTRX9bt?usp=sharing][notebook]].
 
 ** Introdução
 
@@ -50,9 +50,12 @@ Alguns códigos estão disponíveis neste [[./codigos][aqui]].
 
 $$\text{A} = \text{Ls} - \text{Li}$$
 
-- O número de classes
+- O número de classes pode ser definido pelas fórmulas:
 
   $$\text{Número de classes} = \sqrt{\text{amostra}}$$
+  $$i = 1 + 3,3 \times \log n$$
+
+  sendo n o número total de observações.
   
 - Amplitude das classes
 
@@ -90,19 +93,31 @@ $$P_m = \frac{L_s + L_i}{2}$$
 
   $$\bar{x} = \frac{\sum{(PM.f)}}{N}$$
   
-- *Mediana* (necessário fazer rol), valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.
+- *Mediana* (dados em ordem, rol), valor que divide a série em dois conjuntos de igual tamanho. Se o número de dados for ímpar, a mediana está no centro, se for par, a mediana é a média aritmética dos dois valores no centro da série.
 
-- Para dados não agrupados com quantidade par:
+- Para dados não agrupados com quantidade ímpar (valor central):
     
    $$posição = \frac{N}{2}$$
 
-** Moda, valor de maior frequência.
+- Para dados não agrupados com quantidade par (média dos dois valores centrais):
+
+   $$posição = \frac{N + N}{2}$$
+
+- Para distribuições de frequência por classe:
+
+  $$Md = Li + \frac{(N/2 - \sum f_{ant})}{f_{Md}}.A$$
+  
+** *Moda*, valor de maior frequência (observação direta).
 
 - Tipos:
   
-- Distribuição modal, apenas um valor.
-- Distribuição bimodal, dois ou mais valores,
-- Distribuição amodal, sem moda.
+- *Distribuição modal*, apenas um valor.
+- *Distribuição bimodal*, dois ou mais valores,
+- *Distribuição amodal*, sem moda.
+
+- Para distribuição de frequência por classe:
+
+  $$Mo = Li + \frac{f_{post} \cdot A}{f_{ant} + f_{post}}$$
 
 * 3 aula
 
