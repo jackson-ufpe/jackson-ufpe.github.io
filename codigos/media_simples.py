@@ -47,6 +47,7 @@ def calcular_media():
   media = sum(numeros) / len(numeros)
   print(f"Lista de números: {numeros}")
   print(f"Quantidade de números: {len(numeros)}")
+  print(f"Soma dos números: {sum(numeros, 2)}")
   print(f"A média aritmética simples da lista é: {round(media)}")
 
 calcular_media()

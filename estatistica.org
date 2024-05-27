@@ -123,15 +123,17 @@ $$P_m = \frac{L_s + L_i}{2}$$
 
 ** Medidas de dispersão
 
-- Medidas de dispersão, medidas para verificar o quanto os valores estão afastados em relação a média.
+- *Medidas de dispersão*, medidas para verificar o quanto os valores estão afastados em relação a média; relação com especificações.
 
-- Amplitude total, diferença entre o maior e o menor valor da série. Quanto maior a amplitude, maior a dispersão.
+- *Amplitude total*, diferença entre o maior e o menor valor da série. Quanto maior a amplitude, maior a dispersão.
 
-- Desvio médio, a média das distâncias entre cada elemento da amosta e seu valor médio.
+- *Desvio médio*, a média das distâncias entre cada elemento da amosta e seu valor médio.
 
-- Variância, média dos quadrados dos desvios. Desvios proporcionais as dispersões.
+  $$Dm = \frac{\sum|x - \bar{x}|.f}{N}$$
+  
+- *Variância*, média dos quadrados dos desvios. Desvios proporcionais as dispersões.
 
-- Assimetria, grau de afastamento de uma distribuição da unidade de simetria. 
+- *Assimetria*, grau de afastamento de uma distribuição da unidade de simetria. 
 
 - Tipos:
   

@@ -22,4 +22,6 @@ Algumas notas das disciplinas do curso de Ciência de dados sob a liceça [[http
 
 [[./estatistica.html][Estatística]]
 
+Os códigos deste site estão [[https://github.com/jackson-ufpe/jackson-ufpe.github.io][neste repositório.]]
+
 [[https://jeffhuang.com/designed_to_last][Este site foi projetado para durar.]]
