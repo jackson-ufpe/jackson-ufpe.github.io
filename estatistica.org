@@ -18,15 +18,15 @@ Alguns códigos estão disponíveis neste [[https://colab.research.google.com/dr
 #+ATTR_HTML: :alt Passos da estatística image :title Estatística
   [[./imagens/passos-estatistica.svg]]
 
-- Estatística *descritiva* (descrição) e *indutiva* (inferências a partir de população e amostra).
+- Estatística *descritiva*, descrição (tabelas, gráficos, medidas), características amostrais e *indutiva*, inferências a partir de amostras de uma população, características populacionais.
  
-- *População*, *amostra*, estatística descritiva (tabelas, gráficos, medidas), características amostrais, estatística indutiva, características populacionais (inferências).
+- *População*,totalidade de um conjunto de dados, *amostra*, pequena parte da população.
 
 #+CAPTION: População e amostra
 #+ATTR_HTML: :alt População e amostra image :title População e amostra
   [[./imagens/populacao-amostra.svg]]
- 
-- Fases do método estatístico: definição do problema, delimitação do problema, planejamento, coleta de dados, apuração de dados, apresentação de dados, análise de dados, interpretação de dados.
+
+- Fases do *método estatístico*: definição do problema, delimitação do problema, planejamento, coleta de dados, apuração de dados, apresentação de dados, análise de dados, interpretação de dados.
 
 *** Variáveis
 
@@ -38,17 +38,23 @@ Alguns códigos estão disponíveis neste [[https://colab.research.google.com/dr
   
 *** Distribuição e frequência
 
-- *Rol* (ordenação) contar (frequência [absoluta (f)] de repetição).
+- *Rol*, ordenação dos dados iniciais.
 
-- *Frequência acumulada* (soma das frequências) e frequência relativa (fr), divisão da frequência absoluta (f) pelo número de elementos (N) da amostra, em percentual.
+- *Frequência*, contagem do número de ocorrências de um dado (frequência absoluta (f), número de repetições).
+
+- *Distribuição de frequência*, tabela com a frequência das ocorrências.
+  
+- *Frequência acumulada* (fa), soma das frequências (valor final da frequência acumulada sempre igual a quantidade dos dados) e *frequência relativa* (fr), divisão da frequência absoluta (fa) pelo número de elementos (N) da amostra, em percentual.
 
   $$f_r = \frac{f}{N}$$
   
-- Distribuição e frequência por classe
+- *Distribuição de frequência por classe*, frequência por intervalo de valores, denominados classe.
 
-- *Classe* (faixa de valor) com limites inferiores e superiores, amplitude total (A) igual ao limite superior (Ls) menos o limite inferior (Li), invariável.
+- *Classe* (faixa de valor) com limites inferiores (Li), valores fechados à esquerda e superiores, valores aberto a direita (Ls).
 
-$$\text{A} = \text{Ls} - \text{Li}$$
+- *Amplitude total* (A) igual ao limite superior (Ls) menos o limite inferior (Li), a mesma para toda a classe.
+
+  $$\text{A} = \text{Ls} - \text{Li}$$
 
 - O número de classes pode ser definido pelas fórmulas:
 
@@ -57,14 +63,29 @@ $$\text{A} = \text{Ls} - \text{Li}$$
 
   sendo n o número total de observações.
   
-- Amplitude das classes
+- *Amplitude das classes*
 
- $$A = \frac{\text{Amplitude Total}}{\text{Número de classe}}$$
+  $$A = \frac{\text{Amplitude Total}}{\text{Número de classe}}$$
  
-- *Ponto médio* (Pm) igual ao limite superior mais o limite inferior dividido por 2, variável.
+- *Ponto médio* (Pm), valor do meio do intervalo, igual ao limite superior mais o limite inferior dividido por dois, variável para cada classe.
 
-$$P_m = \frac{L_s + L_i}{2}$$
+  $$P_m = \frac{L_s + L_i}{2}$$
 
+- Passos para organização de distribuição de frequência por classes:
+
+     a) Fazer rol dos dados;
+     b) calcular amplitude total
+     c) determinar número de classes (raiz da amostra ou método de Sturges;
+     d) determinar a amplitude das classe;
+     e) montar tabela.
+
+- Recomenda-se o número mínimo de 5 e o máximo de 20 intervalos para construção da tabela.
+  
+- *Raiz quadrada da amostra ou método de Sturges:*
+
+  $$\sqrt{Amostra}$$
+  $$i = 1 + 3,3 \cdot \log n$$
+	
 *** Séries e gráficos
 
 - Séries temporais, geográficas, categóricas ou específicas, mistas.
