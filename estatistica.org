@@ -73,19 +73,22 @@ Alguns códigos estão disponíveis neste [[https://colab.research.google.com/dr
 
 - Passos para organização de distribuição de frequência por classes:
 
-     a) Fazer rol dos dados;
-     b) calcular amplitude total
-     c) determinar número de classes (raiz da amostra ou método de Sturges;
-     d) determinar a amplitude das classe;
-     e) montar tabela.
-
-- Recomenda-se o número mínimo de 5 e o máximo de 20 intervalos para construção da tabela.
-  
-- *Raiz quadrada da amostra ou método de Sturges:*
+- a) Fazer rol dos dados;
+- b) calcular amplitude total
+- c) determinar número de classes (raiz da amostra ou método de Sturges;
 
   $$\sqrt{Amostra}$$
   $$i = 1 + 3,3 \cdot \log n$$
-	
+  
+- d) determinar a amplitude das classe (amplitude total dividido pelo número de classes);
+
+  $$A = \frac{\text{Amplitude Total}}{\text{Número de classe}}$$
+
+- e) montar tabela.
+
+- Recomenda-se o número mínimo de 5 e o máximo de 20 intervalos para construção da tabela.
+  
+ 
 *** Séries e gráficos
 
 - Séries temporais, geográficas, categóricas ou específicas, mistas.
