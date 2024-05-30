@@ -131,17 +131,19 @@ Alguns códigos estão disponíveis neste [[https://colab.research.google.com/dr
 
   $$Md = Li + \frac{(N/2 - \sum f_{ant})}{f_{Md}}.A$$
   
-** *Moda*, valor de maior frequência (observação direta).
+** *Moda*, valor de maior frequência
 
-- Tipos:
-  
-- *Distribuição modal*, apenas um valor.
-- *Distribuição bimodal*, dois ou mais valores,
-- *Distribuição amodal*, sem moda.
+Para dados não agrupados e distribuição de frequência, observação direta. 
 
 - Para distribuição de frequência por classe:
 
   $$Mo = Li + \frac{f_{post} \cdot A}{f_{ant} + f_{post}}$$
+
+- *Tipos*:
+  
+- Distribuição modal, apenas um valor.
+- Distribuição bimodal, dois ou mais valores,
+- Distribuição amodal, sem moda.
 
 * 3 aula
 

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 <head>
-<!-- 2024-05-28 ter 10:52 -->
+<!-- 2024-05-30 qui 13:34 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Estatística</title>
@@ -45,69 +45,69 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgd105af0">1 aula</a>
+<li><a href="#orgedcde4a">1 aula</a>
 <ul>
-<li><a href="#org70e3f29">Introdução</a>
+<li><a href="#org576c14c">Introdução</a>
 <ul>
-<li><a href="#org9f4b0ef">Variáveis</a></li>
-<li><a href="#org4e05f55">Distribuição e frequência</a></li>
-<li><a href="#orge598a53">Séries e gráficos</a></li>
+<li><a href="#org9215f26">Variáveis</a></li>
+<li><a href="#org5332b6b">Distribuição e frequência</a></li>
+<li><a href="#org052585a">Séries e gráficos</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgd5d2fc7">2 aula</a>
+<li><a href="#orgcac2953">2 aula</a>
 <ul>
-<li><a href="#org3d98419">Medidas de posição</a></li>
-<li><a href="#orgd4828c0"><b>Moda</b>, valor de maior frequência (observação direta).</a></li>
+<li><a href="#org95a521b">Medidas de posição</a></li>
+<li><a href="#orgc24cf92"><b>Moda</b>, valor de maior frequência</a></li>
 </ul>
 </li>
-<li><a href="#orgf3ebb9d">3 aula</a>
+<li><a href="#org2511a4d">3 aula</a>
 <ul>
-<li><a href="#org8750a23">Medidas de dispersão</a></li>
+<li><a href="#org95bcc33">Medidas de dispersão</a></li>
 </ul>
 </li>
-<li><a href="#org813a037">4 aula</a>
+<li><a href="#org7f2ab12">4 aula</a>
 <ul>
-<li><a href="#org01c1cb5">Probabilidade</a></li>
+<li><a href="#orga038fcb">Probabilidade</a></li>
 </ul>
 </li>
-<li><a href="#org609812b">5 aula</a>
+<li><a href="#orgc1d6378">5 aula</a>
 <ul>
-<li><a href="#orgc2258a6">Distribuições</a></li>
+<li><a href="#org0581653">Distribuições</a></li>
 </ul>
 </li>
-<li><a href="#org06e48e9">6 aula</a>
+<li><a href="#orgdcbff42">6 aula</a>
 <ul>
-<li><a href="#org6a952eb">Estimação</a>
+<li><a href="#org4b96fd2">Estimação</a>
 <ul>
-<li><a href="#org8fe3993">Intervalo de confiança para proporções</a></li>
+<li><a href="#org6e14553">Intervalo de confiança para proporções</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgf1a6202">Voltar para o início&#x2026;</a></li>
+<li><a href="#org14ec2cb">Voltar para o início&#x2026;</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd105af0" class="outline-2">
-<h2 id="orgd105af0">1 aula</h2>
-<div class="outline-text-2" id="text-orgd105af0">
+<div id="outline-container-orgedcde4a" class="outline-2">
+<h2 id="orgedcde4a">1 aula</h2>
+<div class="outline-text-2" id="text-orgedcde4a">
 <p>
 Alguns códigos estão disponíveis neste <a href="https://colab.research.google.com/drive/1zG9lykjYF1nKWhHpT5uQp-SxLGTRX9bt?usp=sharing">notebook</a>.
 </p>
 </div>
 
-<div id="outline-container-org70e3f29" class="outline-3">
-<h3 id="org70e3f29">Introdução</h3>
-<div class="outline-text-3" id="text-org70e3f29">
+<div id="outline-container-org576c14c" class="outline-3">
+<h3 id="org576c14c">Introdução</h3>
+<div class="outline-text-3" id="text-org576c14c">
 <ul class="org-ul">
 <li><b>Estatística</b>, processamento (organização, análise e interpretação) de dados para gerar (apresentar) informações para decisões assertivas.</li>
 </ul>
 
 
-<div id="orga2fc5f9" class="figure">
+<div id="orge9afdcd" class="figure">
 <p><img src="./imagens/passos-estatistica.svg" alt="Passos da estatística image" class="org-svg" title="Estatística" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Passos da estatística</p>
@@ -120,7 +120,7 @@ Alguns códigos estão disponíveis neste <a href="https://colab.research.google
 </ul>
 
 
-<div id="org43338c6" class="figure">
+<div id="orgfecc8ee" class="figure">
 <p><img src="./imagens/populacao-amostra.svg" alt="População e amostra image" class="org-svg" title="População e amostra" />
 </p>
 <p><span class="figure-number">Figure 2: </span>População e amostra</p>
@@ -131,15 +131,15 @@ Alguns códigos estão disponíveis neste <a href="https://colab.research.google
 </ul>
 </div>
 
-<div id="outline-container-org9f4b0ef" class="outline-4">
-<h4 id="org9f4b0ef">Variáveis</h4>
-<div class="outline-text-4" id="text-org9f4b0ef">
+<div id="outline-container-org9215f26" class="outline-4">
+<h4 id="org9215f26">Variáveis</h4>
+<div class="outline-text-4" id="text-org9215f26">
 <ul class="org-ul">
 <li>Qualitativas (qualidades ou atributos, nominais ou ordinais [ordem]) e quantitativas (quantidade, discretas [contagens], contínuas [medidas]).</li>
 </ul>
 
 
-<div id="orge7982f8" class="figure">
+<div id="orgd362588" class="figure">
 <p><img src="./imagens/variaveis.svg" alt="Variáveis image" class="org-svg" title="Variáveis" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Variáveis</p>
@@ -147,9 +147,9 @@ Alguns códigos estão disponíveis neste <a href="https://colab.research.google
 </div>
 </div>
 
-<div id="outline-container-org4e05f55" class="outline-4">
-<h4 id="org4e05f55">Distribuição e frequência</h4>
-<div class="outline-text-4" id="text-org4e05f55">
+<div id="outline-container-org5332b6b" class="outline-4">
+<h4 id="org5332b6b">Distribuição e frequência</h4>
+<div class="outline-text-4" id="text-org5332b6b">
 <ul class="org-ul">
 <li><b>Rol</b>, ordenação dos dados iniciais.</li>
 
@@ -235,9 +235,9 @@ d) determinar a amplitude das classe (amplitude total dividido pelo número de c
 </div>
 
 
-<div id="outline-container-orge598a53" class="outline-4">
-<h4 id="orge598a53">Séries e gráficos</h4>
-<div class="outline-text-4" id="text-orge598a53">
+<div id="outline-container-org052585a" class="outline-4">
+<h4 id="org052585a">Séries e gráficos</h4>
+<div class="outline-text-4" id="text-org052585a">
 <ul class="org-ul">
 <li>Séries temporais, geográficas, categóricas ou específicas, mistas.</li>
 
@@ -248,13 +248,13 @@ d) determinar a amplitude das classe (amplitude total dividido pelo número de c
 </div>
 </div>
 
-<div id="outline-container-orgd5d2fc7" class="outline-2">
-<h2 id="orgd5d2fc7">2 aula</h2>
-<div class="outline-text-2" id="text-orgd5d2fc7">
+<div id="outline-container-orgcac2953" class="outline-2">
+<h2 id="orgcac2953">2 aula</h2>
+<div class="outline-text-2" id="text-orgcac2953">
 </div>
-<div id="outline-container-org3d98419" class="outline-3">
-<h3 id="org3d98419">Medidas de posição</h3>
-<div class="outline-text-3" id="text-org3d98419">
+<div id="outline-container-org95a521b" class="outline-3">
+<h3 id="org95a521b">Medidas de posição</h3>
+<div class="outline-text-3" id="text-org95a521b">
 <ul class="org-ul">
 <li>Medidas de posição (tendência central), média, mediana e moda.</li>
 
@@ -315,16 +315,14 @@ Para distribuições de frequência por classe:
 </div>
 </div>
 
-<div id="outline-container-orgd4828c0" class="outline-3">
-<h3 id="orgd4828c0"><b>Moda</b>, valor de maior frequência (observação direta).</h3>
-<div class="outline-text-3" id="text-orgd4828c0">
+<div id="outline-container-orgc24cf92" class="outline-3">
+<h3 id="orgc24cf92"><b>Moda</b>, valor de maior frequência</h3>
+<div class="outline-text-3" id="text-orgc24cf92">
+<p>
+Para dados não agrupados e distribuição de frequência, observação direta. 
+</p>
+
 <ul class="org-ul">
-<li>Tipos:</li>
-
-<li><b>Distribuição modal</b>, apenas um valor.</li>
-<li><b>Distribuição bimodal</b>, dois ou mais valores,</li>
-<li><b>Distribuição amodal</b>, sem moda.</li>
-
 <li><p>
 Para distribuição de frequência por classe:
 </p>
@@ -332,18 +330,24 @@ Para distribuição de frequência por classe:
 <p>
 \[Mo = Li + \frac{f_{post} \cdot A}{f_{ant} + f_{post}}\]
 </p></li>
+
+<li><b>Tipos</b>:</li>
+
+<li>Distribuição modal, apenas um valor.</li>
+<li>Distribuição bimodal, dois ou mais valores,</li>
+<li>Distribuição amodal, sem moda.</li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgf3ebb9d" class="outline-2">
-<h2 id="orgf3ebb9d">3 aula</h2>
-<div class="outline-text-2" id="text-orgf3ebb9d">
+<div id="outline-container-org2511a4d" class="outline-2">
+<h2 id="org2511a4d">3 aula</h2>
+<div class="outline-text-2" id="text-org2511a4d">
 </div>
-<div id="outline-container-org8750a23" class="outline-3">
-<h3 id="org8750a23">Medidas de dispersão</h3>
-<div class="outline-text-3" id="text-org8750a23">
+<div id="outline-container-org95bcc33" class="outline-3">
+<h3 id="org95bcc33">Medidas de dispersão</h3>
+<div class="outline-text-3" id="text-org95bcc33">
 <ul class="org-ul">
 <li><b>Medidas de dispersão</b>, medidas para verificar o quanto os valores estão afastados em relação a média; relação com especificações.</li>
 
@@ -372,13 +376,13 @@ Assimétrica a direita,
 </div>
 </div>
 
-<div id="outline-container-org813a037" class="outline-2">
-<h2 id="org813a037">4 aula</h2>
-<div class="outline-text-2" id="text-org813a037">
+<div id="outline-container-org7f2ab12" class="outline-2">
+<h2 id="org7f2ab12">4 aula</h2>
+<div class="outline-text-2" id="text-org7f2ab12">
 </div>
-<div id="outline-container-org01c1cb5" class="outline-3">
-<h3 id="org01c1cb5">Probabilidade</h3>
-<div class="outline-text-3" id="text-org01c1cb5">
+<div id="outline-container-orga038fcb" class="outline-3">
+<h3 id="orga038fcb">Probabilidade</h3>
+<div class="outline-text-3" id="text-orga038fcb">
 <ul class="org-ul">
 <li>Probabilidade, possibilidade (medida de grau de incerteza) de ocorrência de um determinado evento definido num espaço amostral relacionado a um evento aleatório.</li>
 
@@ -402,13 +406,13 @@ Assimétrica a direita,
 </div>
 </div>
 
-<div id="outline-container-org609812b" class="outline-2">
-<h2 id="org609812b">5 aula</h2>
-<div class="outline-text-2" id="text-org609812b">
+<div id="outline-container-orgc1d6378" class="outline-2">
+<h2 id="orgc1d6378">5 aula</h2>
+<div class="outline-text-2" id="text-orgc1d6378">
 </div>
-<div id="outline-container-orgc2258a6" class="outline-3">
-<h3 id="orgc2258a6">Distribuições</h3>
-<div class="outline-text-3" id="text-orgc2258a6">
+<div id="outline-container-org0581653" class="outline-3">
+<h3 id="org0581653">Distribuições</h3>
+<div class="outline-text-3" id="text-org0581653">
 <ul class="org-ul">
 <li>Distribuição de probabilidade, expressão matemática aplicável a múltiplas situações, respeitando determinadas premissas.</li>
 
@@ -430,13 +434,13 @@ Assimétrica a direita,
 </div>
 </div>
 
-<div id="outline-container-org06e48e9" class="outline-2">
-<h2 id="org06e48e9">6 aula</h2>
-<div class="outline-text-2" id="text-org06e48e9">
+<div id="outline-container-orgdcbff42" class="outline-2">
+<h2 id="orgdcbff42">6 aula</h2>
+<div class="outline-text-2" id="text-orgdcbff42">
 </div>
-<div id="outline-container-org6a952eb" class="outline-3">
-<h3 id="org6a952eb">Estimação</h3>
-<div class="outline-text-3" id="text-org6a952eb">
+<div id="outline-container-org4b96fd2" class="outline-3">
+<h3 id="org4b96fd2">Estimação</h3>
+<div class="outline-text-3" id="text-org4b96fd2">
 <ul class="org-ul">
 <li>Inferência estatística, processo para obter informações sobre uma população com base em resultados obtidos na amostra.</li>
 
@@ -458,9 +462,9 @@ Assimétrica a direita,
 </ul>
 </div>
 
-<div id="outline-container-org8fe3993" class="outline-4">
-<h4 id="org8fe3993">Intervalo de confiança para proporções</h4>
-<div class="outline-text-4" id="text-org8fe3993">
+<div id="outline-container-org6e14553" class="outline-4">
+<h4 id="org6e14553">Intervalo de confiança para proporções</h4>
+<div class="outline-text-4" id="text-org6e14553">
 <ul class="org-ul">
 <li>Teste de hipótese, comparar medidas, aferir correção, fazer inferências, hipótese nula (H zero), igualdade, alternativa (H um), desigualdade.</li>
 
@@ -479,13 +483,13 @@ Fórmula&#x2026;
 </div>
 </div>
 
-<div id="outline-container-orgf1a6202" class="outline-2">
-<h2 id="orgf1a6202"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
+<div id="outline-container-org14ec2cb" class="outline-2">
+<h2 id="org14ec2cb"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Jackson de Jesus</p>
-<p class="date">Created: 2024-05-28 ter 10:52</p>
+<p class="date">Created: 2024-05-30 qui 13:34</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
