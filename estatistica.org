@@ -157,15 +157,76 @@ Para dados não agrupados e distribuição de frequência, observação direta.
 
   $$Dm = \frac{\sum|x - \bar{x}|.f}{N}$$
   
-- *Variância*, média dos quadrados dos desvios. Desvios proporcionais as dispersões.
+- *Variância*, média dos quadrados dos desvios, proporcionais as dispersões.
 
-- *Assimetria*, grau de afastamento de uma distribuição da unidade de simetria. 
+- Fórmula para população
+
+  $$S^2 = \frac{\sum (x-\bar{x})^2 .f}{N}$$
+
+- Fórmula para amostra
+
+  $$S^2 = \frac{\sum (x-\bar{x})^2 .f}{N-1}$$
+
+  Depois, extrair a raiz:
+
+  $$S = \sqrt{S^2}$$
+  
+- *Assimetria*, grau de afastamento de uma distribuição da unidade de simetria, grau de deformação da curva de frequências. 
 
 - Tipos:
   
-Simétrica, igualdade dos valores de média, mediana e moda.
-Assimétrica a direita, 
+*Simétrica*, igualdade dos valores de média, mediana e moda:
 
+  $$\overline{X} = Md = Mo$$
+
+#+CAPTION: Simétrica
+#+ATTR_HTML: :alt Simétrica image :title Simétrica
+  [[./imagens/simetrica.jpg]]
+  
+*Assimétrica positiva (a direita)*, média maior que mediana e moda:
+
+  $$\overline{X} > Md > Mo$$
+
+#+CAPTION: Assimétrica positiva
+#+ATTR_HTML: :alt Assimétrica positiva image :title Assimétrica positiva
+  [[./imagens/positiva.jpg]]
+   
+*Assimétrica negativa (a esquerda)* média menor que mediana e moda: 
+
+  $$\overline{X} < Md < Mo$$
+
+#+CAPTION: Assimétrica negativa
+#+ATTR_HTML: :alt Assimétrica negativa image :title Assimétrica negativa 
+  [[./imagens/negativa.jpg]]
+
+*Primeiro coeficiente de Pearson*:
+
+  $$A_s = \frac{\overline{X} - Mo}{S}$$
+
+*Segundo coeficiente de Pearson*:
+
+  $$A_s = \frac{3.(\overline{X} - Md)}{S}$$
+
+*Curtose*, grau de achatamento do gráfico de uma distribuição de frequências em relação a curva padrão (curva normal).
+
+  $$K = \frac{Q_3 - Q_1}{2(P_{90} - P_{10})}$$
+
+- *Leptocúrtica*, dados concentrados em relação a média.
+- *Mesocúrtica*, dados uniformemente distribuídos.
+- *Platicúrtica*, dados dispersos em relação a média.
+
+#+CAPTION: Medidas de curtose 
+#+ATTR_HTML: :alt Medidas de curtose image :title Medidas de curtose 
+  [[./imagens/curtose.jpg]]
+
+- *Fórmula para cálculo do quartil*
+
+  $$Qi = Li + \frac{(\frac{N}{4}i - \sum f_{ant})}{f_{Di}}.A$$
+
+- *Fórmula para cálculo do percentil*
+
+  $$Pi = Li + \frac{(\frac{N}{100}.i - \sum f_{ant})}{f_{pi}}.A$$
+  
 * 4 aula
 
 ** Probabilidade
