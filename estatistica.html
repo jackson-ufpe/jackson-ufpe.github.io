@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 <head>
-<!-- 2024-06-04 ter 11:14 -->
+<!-- 2024-06-08 sáb 15:27 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Estatística</title>
@@ -45,69 +45,69 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org1aba170">1 aula</a>
+<li><a href="#orgb4ed6e6">1 aula</a>
 <ul>
-<li><a href="#orgc077cca">Introdução</a>
+<li><a href="#org2b3c64f">Introdução</a>
 <ul>
-<li><a href="#org7873b28">Variáveis</a></li>
-<li><a href="#orgd3b0ea5">Distribuição e frequência</a></li>
-<li><a href="#orge3cf352">Séries e gráficos</a></li>
+<li><a href="#org4461f9d">Variáveis</a></li>
+<li><a href="#orgfd68e23">Distribuição e frequência</a></li>
+<li><a href="#org7b91a87">Séries e gráficos</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgc2cc0f5">2 aula</a>
+<li><a href="#org77bd8de">2 aula</a>
 <ul>
-<li><a href="#orge274d65">Medidas de posição</a></li>
-<li><a href="#org055055d"><b>Moda</b>, valor de maior frequência</a></li>
+<li><a href="#org6c105a2">Medidas de posição</a></li>
+<li><a href="#org6e0ba3d"><b>Moda</b>, valor de maior frequência</a></li>
 </ul>
 </li>
-<li><a href="#org6176794">3 aula</a>
+<li><a href="#orge1fd76a">3 aula</a>
 <ul>
-<li><a href="#org9cedb91">Medidas de dispersão</a></li>
+<li><a href="#org5a82951">Medidas de dispersão</a></li>
 </ul>
 </li>
-<li><a href="#org403a1f6">4 aula</a>
+<li><a href="#org4119cd3">4 aula</a>
 <ul>
-<li><a href="#orgd434704">Probabilidade</a></li>
+<li><a href="#orge085d3b">Probabilidade</a></li>
 </ul>
 </li>
-<li><a href="#org2a0a873">5 aula</a>
+<li><a href="#org0a3369e">5 aula</a>
 <ul>
-<li><a href="#orge961542">Distribuições</a></li>
+<li><a href="#org975dd8f">Distribuições</a></li>
 </ul>
 </li>
-<li><a href="#org49c94d6">6 aula</a>
+<li><a href="#orgbbf4ade">6 aula</a>
 <ul>
-<li><a href="#org0c0c541">Estimação</a>
+<li><a href="#orga5012b1">Estimação</a>
 <ul>
-<li><a href="#org75d03cb">Intervalo de confiança para proporções</a></li>
+<li><a href="#org61bb5a5">Intervalo de confiança para proporções</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgf71a25f">Voltar para o início&#x2026;</a></li>
+<li><a href="#org68ac7d3">Voltar para o início&#x2026;</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1aba170" class="outline-2">
-<h2 id="org1aba170">1 aula</h2>
-<div class="outline-text-2" id="text-org1aba170">
+<div id="outline-container-orgb4ed6e6" class="outline-2">
+<h2 id="orgb4ed6e6">1 aula</h2>
+<div class="outline-text-2" id="text-orgb4ed6e6">
 <p>
 Alguns códigos estão disponíveis neste <a href="https://colab.research.google.com/drive/1zG9lykjYF1nKWhHpT5uQp-SxLGTRX9bt?usp=sharing">notebook</a>.
 </p>
 </div>
 
-<div id="outline-container-orgc077cca" class="outline-3">
-<h3 id="orgc077cca">Introdução</h3>
-<div class="outline-text-3" id="text-orgc077cca">
+<div id="outline-container-org2b3c64f" class="outline-3">
+<h3 id="org2b3c64f">Introdução</h3>
+<div class="outline-text-3" id="text-org2b3c64f">
 <ul class="org-ul">
 <li><b>Estatística</b>, processamento (organização, análise e interpretação) de dados para gerar (apresentar) informações para decisões assertivas.</li>
 </ul>
 
 
-<div id="orgfaf67fe" class="figure">
+<div id="org78f2a19" class="figure">
 <p><img src="./imagens/passos-estatistica.svg" alt="Passos da estatística image" class="org-svg" title="Estatística" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Passos da estatística</p>
@@ -120,7 +120,7 @@ Alguns códigos estão disponíveis neste <a href="https://colab.research.google
 </ul>
 
 
-<div id="org8e73a0e" class="figure">
+<div id="org460b226" class="figure">
 <p><img src="./imagens/populacao-amostra.svg" alt="População e amostra image" class="org-svg" title="População e amostra" />
 </p>
 <p><span class="figure-number">Figure 2: </span>População e amostra</p>
@@ -131,15 +131,15 @@ Alguns códigos estão disponíveis neste <a href="https://colab.research.google
 </ul>
 </div>
 
-<div id="outline-container-org7873b28" class="outline-4">
-<h4 id="org7873b28">Variáveis</h4>
-<div class="outline-text-4" id="text-org7873b28">
+<div id="outline-container-org4461f9d" class="outline-4">
+<h4 id="org4461f9d">Variáveis</h4>
+<div class="outline-text-4" id="text-org4461f9d">
 <ul class="org-ul">
 <li>Qualitativas (qualidades ou atributos, nominais ou ordinais [ordem]) e quantitativas (quantidade, discretas [contagens], contínuas [medidas]).</li>
 </ul>
 
 
-<div id="org67194cc" class="figure">
+<div id="orgf80311c" class="figure">
 <p><img src="./imagens/variaveis.svg" alt="Variáveis image" class="org-svg" title="Variáveis" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Variáveis</p>
@@ -147,9 +147,9 @@ Alguns códigos estão disponíveis neste <a href="https://colab.research.google
 </div>
 </div>
 
-<div id="outline-container-orgd3b0ea5" class="outline-4">
-<h4 id="orgd3b0ea5">Distribuição e frequência</h4>
-<div class="outline-text-4" id="text-orgd3b0ea5">
+<div id="outline-container-orgfd68e23" class="outline-4">
+<h4 id="orgfd68e23">Distribuição e frequência</h4>
+<div class="outline-text-4" id="text-orgfd68e23">
 <ul class="org-ul">
 <li><b>Rol</b>, ordenação dos dados iniciais.</li>
 
@@ -235,9 +235,9 @@ d) determinar a amplitude das classe (amplitude total dividido pelo número de c
 </div>
 
 
-<div id="outline-container-orge3cf352" class="outline-4">
-<h4 id="orge3cf352">Séries e gráficos</h4>
-<div class="outline-text-4" id="text-orge3cf352">
+<div id="outline-container-org7b91a87" class="outline-4">
+<h4 id="org7b91a87">Séries e gráficos</h4>
+<div class="outline-text-4" id="text-org7b91a87">
 <ul class="org-ul">
 <li>Séries temporais, geográficas, categóricas ou específicas, mistas.</li>
 
@@ -248,13 +248,13 @@ d) determinar a amplitude das classe (amplitude total dividido pelo número de c
 </div>
 </div>
 
-<div id="outline-container-orgc2cc0f5" class="outline-2">
-<h2 id="orgc2cc0f5">2 aula</h2>
-<div class="outline-text-2" id="text-orgc2cc0f5">
+<div id="outline-container-org77bd8de" class="outline-2">
+<h2 id="org77bd8de">2 aula</h2>
+<div class="outline-text-2" id="text-org77bd8de">
 </div>
-<div id="outline-container-orge274d65" class="outline-3">
-<h3 id="orge274d65">Medidas de posição</h3>
-<div class="outline-text-3" id="text-orge274d65">
+<div id="outline-container-org6c105a2" class="outline-3">
+<h3 id="org6c105a2">Medidas de posição</h3>
+<div class="outline-text-3" id="text-org6c105a2">
 <ul class="org-ul">
 <li>Medidas de posição (tendência central), média, mediana e moda.</li>
 
@@ -275,7 +275,7 @@ Para distribuição de frequência simples
 </p>
 
 <p>
-\[\bar{X} = \frac{\sum (X.f)}{N}$, sendo N = \sum f\]
+\[\bar{X} = \frac{\sum (X.f)}{N}\] sendo \[N = \sum f\]
 </p></li>
 
 <li><p>
@@ -315,9 +315,9 @@ Para distribuições de frequência por classe:
 </div>
 </div>
 
-<div id="outline-container-org055055d" class="outline-3">
-<h3 id="org055055d"><b>Moda</b>, valor de maior frequência</h3>
-<div class="outline-text-3" id="text-org055055d">
+<div id="outline-container-org6e0ba3d" class="outline-3">
+<h3 id="org6e0ba3d"><b>Moda</b>, valor de maior frequência</h3>
+<div class="outline-text-3" id="text-org6e0ba3d">
 <p>
 Para dados não agrupados e distribuição de frequência, observação direta. 
 </p>
@@ -341,13 +341,13 @@ Para distribuição de frequência por classe:
 </div>
 </div>
 
-<div id="outline-container-org6176794" class="outline-2">
-<h2 id="org6176794">3 aula</h2>
-<div class="outline-text-2" id="text-org6176794">
+<div id="outline-container-orge1fd76a" class="outline-2">
+<h2 id="orge1fd76a">3 aula</h2>
+<div class="outline-text-2" id="text-orge1fd76a">
 </div>
-<div id="outline-container-org9cedb91" class="outline-3">
-<h3 id="org9cedb91">Medidas de dispersão</h3>
-<div class="outline-text-3" id="text-org9cedb91">
+<div id="outline-container-org5a82951" class="outline-3">
+<h3 id="org5a82951">Medidas de dispersão</h3>
+<div class="outline-text-3" id="text-org5a82951">
 <ul class="org-ul">
 <li><b>Medidas de dispersão</b>, medidas para verificar o quanto os valores estão afastados em relação a média; relação com especificações.</li>
 
@@ -401,7 +401,7 @@ Depois, extrair a raiz:
 </p>
 
 
-<div id="org067eade" class="figure">
+<div id="orge3b1d14" class="figure">
 <p><img src="./imagens/simetrica.jpg" alt="Simétrica image" title="Simétrica" />
 </p>
 <p><span class="figure-number">Figure 4: </span>Simétrica</p>
@@ -416,7 +416,7 @@ Depois, extrair a raiz:
 </p>
 
 
-<div id="org37ba221" class="figure">
+<div id="orgbcac1b4" class="figure">
 <p><img src="./imagens/positiva.jpg" alt="Assimétrica positiva image" title="Assimétrica positiva" />
 </p>
 <p><span class="figure-number">Figure 5: </span>Assimétrica positiva</p>
@@ -431,7 +431,7 @@ Depois, extrair a raiz:
 </p>
 
 
-<div id="orgc94e9f5" class="figure">
+<div id="orgb3c2d08" class="figure">
 <p><img src="./imagens/negativa.jpg" alt="Assimétrica negativa image" title="Assimétrica negativa" />
 </p>
 <p><span class="figure-number">Figure 6: </span>Assimétrica negativa</p>
@@ -468,7 +468,7 @@ Depois, extrair a raiz:
 </ul>
 
 
-<div id="orgc98bc29" class="figure">
+<div id="org3d15ebc" class="figure">
 <p><img src="./imagens/curtose.jpg" alt="Medidas de curtose image" title="Medidas de curtose" />
 </p>
 <p><span class="figure-number">Figure 7: </span>Medidas de curtose</p>
@@ -495,13 +495,13 @@ Depois, extrair a raiz:
 </div>
 </div>
 
-<div id="outline-container-org403a1f6" class="outline-2">
-<h2 id="org403a1f6">4 aula</h2>
-<div class="outline-text-2" id="text-org403a1f6">
+<div id="outline-container-org4119cd3" class="outline-2">
+<h2 id="org4119cd3">4 aula</h2>
+<div class="outline-text-2" id="text-org4119cd3">
 </div>
-<div id="outline-container-orgd434704" class="outline-3">
-<h3 id="orgd434704">Probabilidade</h3>
-<div class="outline-text-3" id="text-orgd434704">
+<div id="outline-container-orge085d3b" class="outline-3">
+<h3 id="orge085d3b">Probabilidade</h3>
+<div class="outline-text-3" id="text-orge085d3b">
 <ul class="org-ul">
 <li>Probabilidade, possibilidade (medida de grau de incerteza) de ocorrência de um determinado evento definido num espaço amostral relacionado a um evento aleatório.</li>
 
@@ -525,13 +525,13 @@ Depois, extrair a raiz:
 </div>
 </div>
 
-<div id="outline-container-org2a0a873" class="outline-2">
-<h2 id="org2a0a873">5 aula</h2>
-<div class="outline-text-2" id="text-org2a0a873">
+<div id="outline-container-org0a3369e" class="outline-2">
+<h2 id="org0a3369e">5 aula</h2>
+<div class="outline-text-2" id="text-org0a3369e">
 </div>
-<div id="outline-container-orge961542" class="outline-3">
-<h3 id="orge961542">Distribuições</h3>
-<div class="outline-text-3" id="text-orge961542">
+<div id="outline-container-org975dd8f" class="outline-3">
+<h3 id="org975dd8f">Distribuições</h3>
+<div class="outline-text-3" id="text-org975dd8f">
 <ul class="org-ul">
 <li>Distribuição de probabilidade, expressão matemática aplicável a múltiplas situações, respeitando determinadas premissas.</li>
 
@@ -553,13 +553,13 @@ Depois, extrair a raiz:
 </div>
 </div>
 
-<div id="outline-container-org49c94d6" class="outline-2">
-<h2 id="org49c94d6">6 aula</h2>
-<div class="outline-text-2" id="text-org49c94d6">
+<div id="outline-container-orgbbf4ade" class="outline-2">
+<h2 id="orgbbf4ade">6 aula</h2>
+<div class="outline-text-2" id="text-orgbbf4ade">
 </div>
-<div id="outline-container-org0c0c541" class="outline-3">
-<h3 id="org0c0c541">Estimação</h3>
-<div class="outline-text-3" id="text-org0c0c541">
+<div id="outline-container-orga5012b1" class="outline-3">
+<h3 id="orga5012b1">Estimação</h3>
+<div class="outline-text-3" id="text-orga5012b1">
 <ul class="org-ul">
 <li>Inferência estatística, processo para obter informações sobre uma população com base em resultados obtidos na amostra.</li>
 
@@ -581,9 +581,9 @@ Depois, extrair a raiz:
 </ul>
 </div>
 
-<div id="outline-container-org75d03cb" class="outline-4">
-<h4 id="org75d03cb">Intervalo de confiança para proporções</h4>
-<div class="outline-text-4" id="text-org75d03cb">
+<div id="outline-container-org61bb5a5" class="outline-4">
+<h4 id="org61bb5a5">Intervalo de confiança para proporções</h4>
+<div class="outline-text-4" id="text-org61bb5a5">
 <ul class="org-ul">
 <li>Teste de hipótese, comparar medidas, aferir correção, fazer inferências, hipótese nula (H zero), igualdade, alternativa (H um), desigualdade.</li>
 
@@ -602,13 +602,13 @@ Fórmula&#x2026;
 </div>
 </div>
 
-<div id="outline-container-orgf71a25f" class="outline-2">
-<h2 id="orgf71a25f"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
+<div id="outline-container-org68ac7d3" class="outline-2">
+<h2 id="org68ac7d3"><a href="./index.html">Voltar para o início&#x2026;</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Jackson de Jesus</p>
-<p class="date">Created: 2024-06-04 ter 11:14</p>
+<p class="date">Created: 2024-06-08 sáb 15:27</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

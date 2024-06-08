@@ -111,7 +111,7 @@ Alguns códigos estão disponíveis neste [[https://colab.research.google.com/dr
 
 - Para distribuição de frequência simples
     
-  $$\bar{X} = \frac{\sum (X.f)}{N}$, sendo N = \sum f$$
+  $$\bar{X} = \frac{\sum (X.f)}{N}$$ sendo $$N = \sum f$$
 
 - Para distribuição de frequência por classe
 
