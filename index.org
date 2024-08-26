@@ -24,6 +24,8 @@ Algumas notas das disciplinas do curso de Ciência de dados sob a liceça [[http
 
 [[./banco-dados.html][Banco de dados]]
 
+[[./ia.html][Inteligência artificial]]
+
 Os códigos deste site estão [[https://github.com/jackson-ufpe/jackson-ufpe.github.io][neste repositório.]]
 
 [[https://jeffhuang.com/designed_to_last][Este site foi projetado para durar.]]

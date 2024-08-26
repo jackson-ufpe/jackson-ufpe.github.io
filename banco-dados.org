@@ -6,8 +6,6 @@
 #+OPTIONS: num:nil html5-fancy:t
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-* Conceitos de Banco de Dados: resumo
-
 ** Capítulo 1
 
 | Conceito | Descrição |
@@ -148,7 +146,9 @@
 | **Functions** |  Como procedures, mas retornam valor(es), úteis para tarefas específicas, usáveis em outros comandos SQL. |
 | **Cursores** | Permitem percorrer linha a linha o resultado de um SELECT, útil para operações em registros individuais. |
 
-** Como organizei o conteúdo desta página
+** Observações...
+
+*** Como organizei o conteúdo desta página
 
 Esta página contém resumos dos principais conceitos de banco de dados extraídos de arquivos no formato PDF com a ferramenta [[https://notebooklm.google.com][NotebookLM]].
 
