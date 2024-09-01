@@ -1,4 +1,4 @@
-#+TITLE: Inteligência aritifical 
+#+TITLE: Inteligência artificial 
 #+LANGUAGE: pt-br
 #+DESCRIPTION: Resumo dos conceitos de inteligência artificial
 #+AUTHOR: Jackson de Jesus
@@ -133,7 +133,7 @@
 
 *** Como organizei o conteúdo desta página
 
-Esta página contém resumos dos principais conceitos de banco de dados extraídos de arquivos no formato PDF com a ferramenta [[https://notebooklm.google.com][NotebookLM]].
+Esta página contém resumos dos principais conceitos de inteligência artificial extraídos de arquivos no formato PDF com a ferramenta [[https://notebooklm.google.com][NotebookLM]].
 
 De forma simples, enviei os arquivos para o NotebookLM e pedi os resumos com os seguintes comandos:
 
