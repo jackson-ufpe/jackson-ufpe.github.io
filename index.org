@@ -20,11 +20,10 @@
 
 Algumas notas das disciplinas do curso de Ciência de dados sob a liceça [[https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR][Creative Commons]] (sempre em revisão)...
 
-[[./estatistica.html][Estatística]]
-
-[[./banco-dados.html][Banco de dados]]
-
-[[./ia.html][Inteligência artificial]]
+[[./estatistica.html][(a) Estatística]],
+[[./banco-dados.html][(b) Banco de dados]],
+[[./ia.html][(c) Inteligência artificial]],
+[[./python.html][(d) Python]]...
 
 Os códigos deste site estão [[https://github.com/jackson-ufpe/jackson-ufpe.github.io][neste repositório.]]
 
