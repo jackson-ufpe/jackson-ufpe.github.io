@@ -2,7 +2,7 @@
 #+LANGUAGE: pt-br
 #+DESCRIPTION: Resumo dos conceitos de banco de dados
 #+AUTHOR: Jackson de Jesus
-#+EXPORT_FILE_NAME:banco-dados.html
+#+EXPORT_FILE_NAME: banco-dados.html
 #+OPTIONS: num:nil html5-fancy:t
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
