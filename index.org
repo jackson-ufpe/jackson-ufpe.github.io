@@ -24,7 +24,8 @@ Algumas anotações pessoais das disciplinas que estudo no curso Ciência de dad
 [[./banco-dados.html][(b) Banco de dados]],
 [[./ia.html][(c) Inteligência artificial]],
 [[./python.html][(d) Python,]]
-[[./sgbd.html][(e) SGBD]]...
+[[./sgbd.html][(e) SGBD]],
+[[./engenharia-software.html][(f) Engenharia de software...]]
 
 Os códigos deste site estão [[https://github.com/jackson-ufpe/jackson-ufpe.github.io][neste repositório.]]
 
