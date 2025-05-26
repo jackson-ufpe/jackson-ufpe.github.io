@@ -10,11 +10,11 @@
 
 - 👋 Oi, me chamo Jackson,
 - 👀 curto tecnologia e linguagens (nas suas diversas modalidades),
-- 🌱 estudo muitos temas, dentre os quais [[https://jackson-ufpe.github.io][ciência de dados]],
-- 💞️ gosto de Software Livre e sistemas GNU/Linux,
-- 📫 ainda prefiro usar o e-mail,
+- 🌱 estudo muitos temas, dentre os quais, ciência de dados,
+- 💞️ gosto de Software Livre e sistemas Unix-like,
+- 📫 ainda prefiro usar o e-mail (não uso nenhuma rede social),
 - 😄 ele,
-- ⚡ converso sozinho no [[https://literolinguista.gitlab.io][literolinguista]]
+- ⚡ converso sozinho no [[https://jackson.jesus.nom.br][sitezinho...]]
 
 ** Notas de aulas...
 
@@ -25,7 +25,8 @@ Algumas anotações pessoais das disciplinas que estudo no curso Ciência de dad
 [[./ia.html][(c) Inteligência artificial]],
 [[./python.html][(d) Python,]]
 [[./sgbd.html][(e) SGBD]],
-[[./engenharia-software.html][(f) Engenharia de software...]]
+[[./engenharia-software.html][(f) Engenharia de software]],
+[[./lec.html][(g) Legislação, ética e conformidade]]...
 
 Os códigos deste site estão [[https://github.com/jackson-ufpe/jackson-ufpe.github.io][neste repositório.]]
 
